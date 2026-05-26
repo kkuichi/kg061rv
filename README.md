@@ -14,6 +14,7 @@ Tento repozitár obsahuje zdrojový kód vytvorený v rámci bakalárskej práce
 
 ```
 ├── model_EPB.ipynb        # Hlavný notebook - tréning, vyhodnotenie a nasadenie
+├── requirements.txt       # Python závislosti
 └── src/
     ├── model_scss_net.py  # Architektúra modelu (SCSS-Net)
     ├── data_loader.py     # Načítanie snímok a masiek
@@ -43,6 +44,7 @@ Po stiahnutí a rozbalení by mala celková štruktúra projektu vyzerať nasled
 ├── model_EPB.ipynb                          # Hlavný notebook
 ├── model_epb_v1.h5                          # Model natrénovaný na manuálne anotovaných dátach (vstup 640 × 640)
 ├── model_epb_final.h5                       # Finálny model použitý na nasadenie (vstup 512 × 512)
+├── requirements.txt
 ├── src/
 │   ├── model_scss_net.py
 │   ├── data_loader.py
@@ -64,6 +66,10 @@ Po stiahnutí a rozbalení by mala celková štruktúra projektu vyzerať nasled
 ## Popis súborov
 
 **`model_EPB.ipynb`** - Hlavný notebook. Pokrýva celý postup: načítanie dát, tréning, vyhodnotenie na validačnej množine, predikciu na testovacej množine/nasadenie na dátach bez ground-truth masiek a export výsledkov do PDF.
+
+---
+
+**`requirements.txt`** - Zoznam závislostí potrebných na spustenie projektu.
 
 ---
 
