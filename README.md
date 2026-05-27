@@ -55,11 +55,7 @@ Po stiahnutí a rozbalení by mala celková štruktúra projektu vyzerať nasled
 │   └── pdf_export.py
 └── data/
     ├── manual_annotations/                  # Manuálne anotované snímky EPB
-    │   ├── imgs/
-    │   └── masks/
     ├── EL_6300_EPB_2023-10--12_revised/     # Vytriedené predikcie z model_epb_v1; použité na tréning model_epb_final
-    │   ├── imgs/
-    │   └── masks/
 ```
 
 
